@@ -34,6 +34,7 @@ h1{
     font-size: 1.3rem;
     font-weight: bold;
     background-color: rgb(236, 169, 44);
+    cursor: pointer;
 }
 p{
     font-size: 3rem;
