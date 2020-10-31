@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 3rem;
+    margin: 1.1rem;
+    font-weight: bold;
+}
+.conv{
+    width: 100%;
+}
+.conv input{
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 800;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+.conv button{
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 0.4rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: rgb(236, 169, 44);
+}
+p{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem;
+}
