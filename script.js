@@ -15,4 +15,3 @@ document.querySelector('button').disabled = true;
             document.getElementById('btd').value = '';
             document.querySelector('button').disabled = true;
         }
-        
