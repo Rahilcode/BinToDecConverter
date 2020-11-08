@@ -41,3 +41,33 @@ p{
     font-weight: bold;
     margin: 2rem;
 }
+header{
+    width: 100%;
+    height: 15%;
+    background-color: orange;
+}
+header nav{
+    margin-left: 3%;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+header nav ul li{
+    list-style: none;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+header nav ul li a{
+   text-decoration: none;
+   font-size: 2rem;
+   font-weight: bold;
+   color: rgb(65, 59, 59);
+}
+header nav ul li a:hover{
+   color: honeydew;
+}
+.active{
+   color: rgb(51, 50, 50);
+}
