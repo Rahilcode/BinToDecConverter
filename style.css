@@ -12,6 +12,7 @@
     justify-content: center;
 }
 h1{
+    color: #000851;
     font-size: 3rem;
     margin: 1.1rem;
     font-weight: bold;
@@ -33,7 +34,9 @@ h1{
     padding: 0.4rem;
     font-size: 1.3rem;
     font-weight: bold;
-    background-color: rgb(236, 169, 44);
+    border-radius: 0.5rem;
+    color: white;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     cursor: pointer;
 }
 p{
@@ -44,7 +47,7 @@ p{
 header{
     width: 100%;
     height: 15%;
-    background-color: orange;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
 }
 header nav{
     margin-left: 3%;
@@ -63,11 +66,14 @@ header nav ul li a{
    text-decoration: none;
    font-size: 2rem;
    font-weight: bold;
-   color: rgb(65, 59, 59);
+   color:white;
 }
 header nav ul li a:hover{
-   color: honeydew;
+   color: #3A1C71;
 }
 .active{
-   color: rgb(51, 50, 50);
+   color: snow;
+}
+.conv button:hover{
+    color: #3A1C71;
 }
